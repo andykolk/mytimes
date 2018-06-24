@@ -51,25 +51,97 @@ body .maincontent {
   width: 100%;
   display: flex;
   border: 1px solid black;
+  /* justify-content: flex-start; */
 }
 
 .largebox {
-  background-color: red;
   display: flex;
+  flex-direction: column;
   width: 630px;
-  height: 630px;
 }
 
 .mediumbox {
-  background-color: blue;
-  display: flex;
+  /* display: flex; */
+  /* flex-direction: column; */
   width: 300px;
-  height: 300px;
 }
 
 .smallbox {
-  background-color: yellow;
-  display: flex;
+  /* display: flex; */
+  /* flex-direction: column; */
   width: 240px;
-  height: 240px;
+}
+
+.firstheadline {
+  width: 630px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  border: 1px solid black;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+
+.firststory {
+  border: 1px solid black;
+}
+
+.orcastory {
+  width: 250px;
+  border: 1px solid black;
+}
+
+.secondheadline {
+  width: 250px;
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  border: 1px solid black;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+
+}
+
+.breakfastburger {
+  width: 250px;
+  border: 1px solid black;
+}
+
+.thirdheadline {
+  width: 250px;
+  border: 1px solid black;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.fbiaction {
+  border: 1px solid black;
+}
+
+.catscontrol {
+  border: 1px solid black;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.brooklyn {
+  border: 1px solid black;
+}
+
+.cookie {
+  border: 1px solid black;
+}
+
+.newsbites {
+  border: 1px solid black;
 }
