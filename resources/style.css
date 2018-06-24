@@ -1,3 +1,75 @@
-.banner {
+/* header */
+
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20%;
+}
+
+header nav {
   display: inline-flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-self: center;
+  padding-right: 20px;
+}
+
+.logo img {
+  padding: 5px 15px 5px 15px;
+}
+
+nav span {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  padding-left: 10px;
+}
+
+.logo  p {
+  color: MediumAquamarine;
+}
+
+a:link {
+    color: black;
+}
+
+/* main content */
+
+body .maincontent {
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+}
+
+.largebox {
+  background-color: red;
+  display: flex;
+  width: 630px;
+  height: 630px;
+}
+
+.mediumbox {
+  background-color: blue;
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+
+.smallbox {
+  background-color: yellow;
+  display: flex;
+  width: 240px;
+  height: 240px;
 }
